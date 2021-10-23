@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 
 import { HeroesModule } from './heroes/heroes.module';
 import { ContadorModule } from './contador/ListadoCont/contador.module';
+import { DbzModule } from './dbz/dbz.module';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ContadorModule } from './contador/ListadoCont/contador.module';
   imports: [
     BrowserModule,
     HeroesModule,
-    ContadorModule// importar aquí Tarea Module
+    ContadorModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
